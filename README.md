@@ -12,7 +12,7 @@
     Personal website showcasing my skills and latest projects!    
     <br />
     <br />
-    :round_pushpin:<a href="https://portfolio-ambaliyadhruv.vercel.app/">View Demo</a>
+    :round_pushpin:<a href="https://vadivelan-velu.netlify.app/">View Demo</a>
   </p>
 </p>
 
