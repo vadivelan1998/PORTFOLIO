@@ -32,7 +32,7 @@ const ProjectContainer = () => {
         p1: "This is a clone of lumen5.com, where we have used HTML, CSS, and Javascript to achieve this.",
         l1: "https://github.com/Aayush771/Lumen-5-Clone",
         a1: "Github page for a project.",
-        l2: "https://purplle.vercel.app/",
+        l2: "https://lumen5-website-clone.netlify.app/",
         a2: "lumen5.com_web_clone",
         tech: [html, css, js],
       },
@@ -57,18 +57,18 @@ const ProjectContainer = () => {
         l2: "https://velu-tic-tac-tac.netlify.app/",
         a2: "Tic Tac Toe Game live website.",
         tech: [html, css, react, js],
-      }
-        // {
-        //   image: [newsAggregator, newsAggregator],
-        //   alt: "Food App",
-        //   heading: "Food App",
-        //   p1: "A food search app, where users can search various dishes and get the full recipe of it and Implemented search functionality using JS debouncing to minimize the unnecessary api calls",
-        //   l1: "https://github.com/AmbaliyaDhruv/FoodApp",
-        //   a1: "Github page for a project.",
-        //   l2: "https://food-app-ambaliyadhruv.vercel.app/index.html",
-        //   a2: "Food App live website",
-        //   tech: [html, css, js],
-        // },
+      },
+      // {
+      //   image: [newsAggregator, newsAggregator],
+      //   alt: "Food App",
+      //   heading: "Food App",
+      //   p1: "A food search app, where users can search various dishes and get the full recipe of it and Implemented search functionality using JS debouncing to minimize the unnecessary api calls",
+      //   l1: "https://github.com/AmbaliyaDhruv/FoodApp",
+      //   a1: "Github page for a project.",
+      //   l2: "https://food-app-ambaliyadhruv.vercel.app/index.html",
+      //   a2: "Food App live website",
+      //   tech: [html, css, js],
+      // },
     ];
     return (
         <div
