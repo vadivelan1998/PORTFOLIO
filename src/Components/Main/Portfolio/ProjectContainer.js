@@ -2,11 +2,12 @@ import React, { useContext } from "react";
 import { ThemeContext } from "../../../context/ThemeContext";
 import nykaaSm from "../../../Assets/img/Portfolio items/Nykaaman.PNG";
 import nykaaLg from "../../../Assets/img/Portfolio items/Nykaaman.PNG";
-import pounamunuiSm from "../../../Assets/img/Portfolio items/youtube.png";
-import pounamunuiLg from "../../../Assets/img/Portfolio items/youtube.png";
+import tictactoeSm from "../../../Assets/img/Portfolio items/TicTacToe.gif";
+import tictactoeLg from "../../../Assets/img/Portfolio items/TicTacToe.gif";
 import newsAggregator from "../../../Assets/img/Portfolio items/foodApp.png";
 import lumenSm from "../../../Assets/img/Portfolio items/Lumen.PNG";
 import lumenLg from "../../../Assets/img/Portfolio items/Lumen.PNG";
+
 
 import ProjectItem from "./ProjectItem";
 
@@ -19,6 +20,7 @@ import js from "../../../Assets/img/logos/js.svg";
 import react from "../../../Assets/img/logos/react.svg";
 import nodejs from "../../../Assets/img/logos/nodejs.svg";
 import expressjs from "../../../Assets/img/logos/expressjs.svg";
+
 
 const ProjectContainer = () => {
     const { isLight } = useContext(ThemeContext);
@@ -45,28 +47,28 @@ const ProjectContainer = () => {
         a2: "Nykaaman live website.",
         tech: [html, css, js, expressjs, nodejs],
       },
-      //   {
-      //     image: [pounamunuiSm, pounamunuiLg],
-      //     alt: "Youtube web clone",
-      //     heading: "Youtube web clone",
-      //     p1: "Getting familiar with google APIs by creating this simple Youtube-like app, where users can search and stream Youtube videos. Using JS, HTML and CSS.",
-      //     l1: "https://github.com/AmbaliyaDhruv/YouTube_clone.github.io",
-      //     a1: "Github page for a project.",
-      //     l2: "https://ambaliyadhruv.github.io/YouTube_clone.github.io/",
-      //     a2: "Youtube clone web project live website.",
-      //     tech: [html, css, js],
-      //   },
-      //   {
-      //     image: [newsAggregator, newsAggregator],
-      //     alt: "Food App",
-      //     heading: "Food App",
-      //     p1: "A food search app, where users can search various dishes and get the full recipe of it and Implemented search functionality using JS debouncing to minimize the unnecessary api calls",
-      //     l1: "https://github.com/AmbaliyaDhruv/FoodApp",
-      //     a1: "Github page for a project.",
-      //     l2: "https://food-app-ambaliyadhruv.vercel.app/index.html",
-      //     a2: "Food App live website",
-      //     tech: [html, css, js],
-      //   },
+      {
+        image: [tictactoeSm, tictactoeLg],
+        alt: "Tic-Tac-Toe Game",
+        heading: "Tic-Tac-Toe Game",
+        p1: "Created React App using npx create-react-app Designing the UI  Game board using JSX and CSS Used React Hooks to manage the state of the application For the winning state it shows an alert with Winner's name",
+        l1: "https://github.com/vadivelan1998/Tic-Tac-Toe",
+        a1: "Github page for a project.",
+        l2: "https://velu-tic-tac-tac.netlify.app/",
+        a2: "Tic Tac Toe Game live website.",
+        tech: [html, css, react, js],
+      }
+        // {
+        //   image: [newsAggregator, newsAggregator],
+        //   alt: "Food App",
+        //   heading: "Food App",
+        //   p1: "A food search app, where users can search various dishes and get the full recipe of it and Implemented search functionality using JS debouncing to minimize the unnecessary api calls",
+        //   l1: "https://github.com/AmbaliyaDhruv/FoodApp",
+        //   a1: "Github page for a project.",
+        //   l2: "https://food-app-ambaliyadhruv.vercel.app/index.html",
+        //   a2: "Food App live website",
+        //   tech: [html, css, js],
+        // },
     ];
     return (
         <div
