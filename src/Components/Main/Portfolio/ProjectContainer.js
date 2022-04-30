@@ -57,7 +57,7 @@ const ProjectContainer = () => {
         l2: "https://velu-tic-tac-tac.netlify.app/",
         a2: "Tic Tac Toe Game live website.",
         tech: [html, css, react, js],
-      },
+      }
       // {
       //   image: [newsAggregator, newsAggregator],
       //   alt: "Food App",
