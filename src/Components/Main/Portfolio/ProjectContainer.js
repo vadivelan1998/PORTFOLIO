@@ -32,7 +32,7 @@ const ProjectContainer = () => {
         p1: "This is a clone of lumen5.com, where we have used HTML, CSS, and Javascript to achieve this.",
         l1: "https://github.com/Aayush771/Lumen-5-Clone",
         a1: "Github page for a project.",
-        l2: "https://lumen5-website-clone.netlify.app/",
+        l2: "https://lumen5-clone.netlify.app/",
         a2: "lumen5.com_web_clone",
         tech: [html, css, js],
       },
