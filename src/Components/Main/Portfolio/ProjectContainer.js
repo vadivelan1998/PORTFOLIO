@@ -4,7 +4,7 @@ import nykaaSm from "../../../Assets/img/Portfolio items/Nykaaman.PNG";
 import nykaaLg from "../../../Assets/img/Portfolio items/Nykaaman.PNG";
 import tictactoeSm from "../../../Assets/img/Portfolio items/TicTacToe.gif";
 import tictactoeLg from "../../../Assets/img/Portfolio items/TicTacToe.gif";
-import newsAggregator from "../../../Assets/img/Portfolio items/foodApp.png";
+import EStore from "../../../Assets/img/Portfolio items/EStore.PNG";
 import lumenSm from "../../../Assets/img/Portfolio items/Lumen.PNG";
 import lumenLg from "../../../Assets/img/Portfolio items/Lumen.PNG";
 
@@ -32,7 +32,7 @@ const ProjectContainer = () => {
         p1: "This is a clone of lumen5.com, where we have used HTML, CSS, and Javascript to achieve this.",
         l1: "https://github.com/Aayush771/Lumen-5-Clone",
         a1: "Github page for a project.",
-        l2: "https://lumen5-website-clone.netlify.app/",
+        l2: "https://lumen5-clone.netlify.app/",
         a2: "lumen5.com_web_clone",
         tech: [html, css, js],
       },
@@ -58,17 +58,17 @@ const ProjectContainer = () => {
         a2: "Tic Tac Toe Game live website.",
         tech: [html, css, react, js],
       },
-      // {
-      //   image: [newsAggregator, newsAggregator],
-      //   alt: "Food App",
-      //   heading: "Food App",
-      //   p1: "A food search app, where users can search various dishes and get the full recipe of it and Implemented search functionality using JS debouncing to minimize the unnecessary api calls",
-      //   l1: "https://github.com/AmbaliyaDhruv/FoodApp",
-      //   a1: "Github page for a project.",
-      //   l2: "https://food-app-ambaliyadhruv.vercel.app/index.html",
-      //   a2: "Food App live website",
-      //   tech: [html, css, js],
-      // },
+      {
+        image: [EStore, EStore],
+        alt: "E Store",
+        heading: "E Store App",
+        p1: "This project is about building an E-commerce web application with backend integration showing the functionalities of ans E-commerce website like filtering,sorting the products, add Too cart, wishlist etc.,",
+        l1: "https://github.com/vadivelan1998/E-KART-FRONTEND",
+        a1: "Github page for a project.",
+        l2: "https://e-kart-store.netlify.app/",
+        a2: "E Store App live website",
+        tech: [html, css, js, react, expressjs, nodejs],
+      },
     ];
     return (
         <div
