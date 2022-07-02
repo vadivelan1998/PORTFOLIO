@@ -68,7 +68,8 @@ const ProjectContainer = () => {
         l2: "https://e-kart-store.netlify.app/",
         a2: "E Store App live website",
         tech: [html, css, js, react, expressjs, nodejs],
-      },
+      }
+     
     ];
     return (
         <div
